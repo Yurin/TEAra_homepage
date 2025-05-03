@@ -1,32 +1,26 @@
 import { Link } from 'react-router-dom'
-
 export default function Navbar() {
   return (
-    <header className="relative w-full h-screen overflow-hidden">
-
-      {/* 背景画像（画面全体）
-      <div className="absolute inset-0 w-full h-full -z-10">
-        <img
-          src="/Hack.png"
-          alt="TEAra header"
-          className="w-full h-full object-cover object-top"
-        />
-      </div> */}
-
+    <header className="relative w-full min-h-[30vh] overflow-hidden mt-[20vh]">
       {/* ロゴ・タイトル（中央） */}
-      <div className="w-full h-full flex flex-col items-center justify-center text-white text-center bg-black/30">
-        <div className="flex items-center space-x-4">
-          <img
-            src="/teara.png"
-            alt="TEAra logo"
-            className="w-12 h-12 object-contain"
-          />
-          <h1 className="text-4xl md:text-5xl font-bold">TEAra</h1>
-        </div>
-        <p className="text-sm md:text-base tracking-wide mt-2">
-          お茶大生むけコミュニティ
-        </p>
-      </div>
+      <div className="w-full h-full flex flex-col items-start justify-center text-white text-left pl-12">
+  <div className="flex items-center space-x-6">
+    <img
+      src="/teara.png"
+      alt="TEAra logo"
+      className="w-20 h-20 object-contain"
+    />
+    <h1 className="text-5xl md:text-6xl font-bold text-white"style={{textShadow: '2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black, 2px -2px 0 black'
+  }}
+>
+  TEAra
+</h1>
+  </div>
+  <p className="text-lg md:text-xl tracking-wide mt-4 font-bold"style={{textShadow: '1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black'
+  }}>
+    お茶大生むけコミュニティ
+  </p>
+</div>
 
       {/* ナビバー */}
       <nav className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-teal-400 to-green-400 shadow-md z-10">
