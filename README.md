@@ -1,5 +1,4 @@
 
-```md
 # TEAra Homepage
 
 お茶の水女子大学の学生向けコミュニティ **TEAra** のWebサイトです 🌿  
@@ -64,14 +63,6 @@ npm run dev
 
 ---
 
-## 🤝 貢献について
-
-初心者の方も大歓迎です！  
-ファイルを編集したり、ページを追加して、PR（プルリク）を送ってみてください 🙌  
-わからないことがあれば [Issues](https://github.com/Yurin/TEAra_homepage/issues) に投稿してね。
-
----
-
 ## 📄 ライセンス
 
 MIT License
@@ -82,7 +73,7 @@ MIT License
 
 - 👩‍💻 ゆり（[@Yurin](https://github.com/Yurin)）
 - 🌱 お茶大 TEAra 運営
-```
+
 
 ---
 
@@ -99,6 +90,3 @@ git push
 ```
 
 ---
-
-「このセクションも入れたい！」とか「もっとポップにしたい！」などあれば遠慮なく言ってね💕  
-GitHubページで見たときに「わかりやすくて安心する」READMEにしていこう！
