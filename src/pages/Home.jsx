@@ -14,11 +14,6 @@ export default function Home() {
   
         {/* セクション2：画像やバナー */}
         <section className="flex justify-center py-12">
-          <img
-            src="/Hack.png"
-            alt="TEAra Hackathon Banner"
-            className="w-full max-w-3xl rounded-xl shadow-lg"
-          />
         </section>
   
         {/* セクション3：CTA */}
